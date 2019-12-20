@@ -1,0 +1,95 @@
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.huffingtonpost.com/asset/5be2210b220000e503ddb913.jpeg?ops=scalefit_630_noupscale");
+  
+    /* Set a specific height */
+    height: 100%;
+    width: 100%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+
+
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: aliceblue;
+    font-size: 75px;
+}
+
+h2 {
+    font-family:   'Oswald', sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+h3 {
+    font-family:   'Oswald', sans-serif;
+    text-align: center;
+    color: rgb(27, 27, 27);
+    font-size: 40px;
+}
+
+
+p {
+    font-family:   'Oswald', sans-serif;
+    text-align: center;
+    color: rgb(27, 27, 27);
+}
+
+body {
+    background-color: #dbdbdb;
+}
+
+img {
+    vertical-align: middle;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(255, 255, 255, 0);
+  animation: fadein 10s;
+  -moz-animation: fadein 10s; /* Firefox */
+  -webkit-animation: fadein 10s; /* Safari and Chrome */
+  -o-animation: fadein 10s; /* Opera */
+}
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}
