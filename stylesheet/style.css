@@ -40,7 +40,9 @@ h3 {
 
 p {
     font-family:   'Oswald', sans-serif;
-    text-align: center;
+    margin:auto;
+    width: 50%;
+    text-align: justify;
     color: rgb(27, 27, 27);
 }
 
